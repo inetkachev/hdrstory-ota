@@ -15,7 +15,7 @@
 </head>
 <body>
 <h1>HDR Story — Privacy Policy</h1>
-<p class="date">Effective 21 September 2026</p>
+<p class="date">Effective 22 September 2026</p>
 
 <p>HDR Story is an iOS app that turns your HDR photos into short videos for Instagram Stories.
 This policy explains what the app does with your data. The short version: your photos stay on
@@ -33,11 +33,35 @@ after five minutes. HDR Story does not sign in to your Instagram or Facebook acc
 use the Instagram API, and receives no data from Meta. What happens to the video inside
 Instagram is covered by Instagram’s own privacy policy.</p>
 
-<h2>Diagnostics</h2>
-<p>The app keeps a technical log on your device so problems can be investigated; it leaves the
-device only if you export and send it yourself. Anonymous usage statistics are off by default
-and are sent only if you turn them on in Settings. They contain no photos, file names, location,
-contacts, or account identifiers, and you can turn them off at any time.</p>
+<h2>Anonymous statistics (only if you agree)</h2>
+<p>The app asks once, after your first finished batch. Nothing is sent before you tap
+<b>Share</b> on that screen, and you can say no — the app works exactly the same.</p>
+<ul>
+<li><b>Usage Analytics</b> — which steps succeed or fail (adding photos, creating a video,
+sharing) and how long they take.</li>
+<li><b>Diagnostics</b> — that the app stopped unexpectedly and at which step; summary counters
+from iOS performance reports.</li>
+<li>With every event: app version and build, iOS version, iPhone model (for example
+“iPhone17,1”), language and region, how the app was installed, a random session number.</li>
+</ul>
+<p>All numbers are sent as ranges, not exact values: “12–24 megapixels”, “5–10 seconds”.
+Never sent: your photos and videos, file names, photo library identifiers, photo metadata,
+location, clipboard contents, error texts, your name, e-mail, Apple ID or advertising
+identifier.</p>
+<p>To tell “one person with ten failures” from “ten people with one failure each”, the app
+creates a random number when you agree. It is not derived from your device or account.
+<b>Settings → Privacy &amp; Analytics → Reset Anonymous ID</b> replaces it, after which new data
+cannot be linked to the old; turning both switches off deletes it. <b>See What’s Sent</b> on the
+same screen shows the exact events.</p>
+<p>Events are stored in a Cloudflare D1 database operated by the developer. The server does not
+store IP addresses or user-agent strings. Events are deleted automatically after 13 months.</p>
+
+<h2>Support reports</h2>
+<p>The app keeps a technical log on your device so problems can be investigated.
+<b>Settings → Send Support Report</b> builds a file on your iPhone and opens the system share
+sheet; you choose where it goes, and the app uploads nothing. The report contains the app log
+(it includes photo file names), recent events, app settings, iOS performance reports and your
+note. The source photo and the video are included only if you turn those switches on.</p>
 
 <h2>What we do not do</h2>
 <p>No accounts, no advertising, no tracking across apps or websites, no sale or sharing of
@@ -45,8 +69,10 @@ personal data with third parties.</p>
 
 <h2 id="data-deletion">Data deletion</h2>
 <p>All app data lives on your device. Deleting the app removes it. Videos saved to Photos stay
-in your library until you delete them there. Since no personal data is stored on our side,
-there is nothing for us to delete; if you have questions, write to the address below.</p>
+in your library until you delete them there. Anonymous statistics, if you
+turned them on, cannot be traced back to you, so we cannot find or delete “your” events on
+request; resetting the anonymous ID and the 13-month limit are the tools for that. If you have
+questions, write to the address below.</p>
 
 <h2>Children</h2>
 <p>The app is not directed to children under 13 and does not knowingly collect data from them.</p>
